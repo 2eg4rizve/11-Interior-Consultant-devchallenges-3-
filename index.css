@@ -3,6 +3,7 @@ body {
     padding: 20px;
     color: #FFF;
 }
+/* nav */
 
 .nav-container {
     display: flex;
@@ -55,61 +56,80 @@ body {
 
 }
 
+
+
+
+/* banner */
+
 .container {
     display: flex;
+    justify-content: space-between;
+    background-color: rgb(45, 12, 164);
+    margin-top: 50px;
+
+    
 
 }
 
 .left {
-    margin-left: 50px;
+    margin-left: 20px;
+    max-width: 20%;
+    background-color: aqua;
 }
+.right{
+    /* width: 100%; */
+    margin: 0 auto;
+    background-color: rgb(220, 119, 3);
+
+    margin-left: 50px;
+    margin-right: 50px; 
+    
+}
+
+
 
 .div-h {
     color: #FFF;
-    font-family: Lora;
     font-size: 48px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
-
     margin-top: 150px;
 
 }
 
 .div-p {
     color: #FFF;
-    font-family: Montserrat;
     font-size: 24px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
-
-    width: 410px;
+    max-width: 100%;
 
 }
 
 .div-r {
     color: #FFF;
-    font-family: Montserrat;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+   
 }
 
-.home-pic {
-    width: 75%;
-    height: 85%;
 
-    margin-left: 200px;
-    margin-top: 60px;
-    margin-right: 100px;
+
+
+.home-pic {
+    width: 90%;
+    height: 70%;
+    margin-left: 10%;
+    margin-top: 10%;
+   
+
+   
+
+ 
 
 
 }
 
 /* blog */
-.blog {
+/* .blog {
     display: flex;
     justify-content: right;
     margin-right: 100px;
@@ -165,4 +185,4 @@ body {
     font-size: 24px;
     font-weight: 700;
     width: 287px;
-}
+} */
